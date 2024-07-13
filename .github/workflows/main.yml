@@ -1,0 +1,11 @@
+# WORKFLOW
+name: hello-world-github-actions
+# EVENTS
+on: push
+# JOBS
+jobs:
+  demo-job-1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: steps-to-run-this-job
+      run: echo "Hello world!!!"
